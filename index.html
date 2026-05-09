@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Viki's Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body>
+    <main>
+        <section class="slidebar">
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="/images-web/VS-LOGO-removebg-preview.webp" alt="Logo">
+                </a>
+            </div>
+
+            <div class="nav-menu" id="nav-menu-slidebar">
+                <a href="#about-sec">ABOUT</a>
+                <a href="#project-sec">PROJECTS</a>
+                <a href="#skills-info">SKILLS</a>
+                <a href="#contact-sec">CONTACT</a>
+            </div>
+
+            <div class="hamburger-icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </section>
+
+        <section class="context">
+            <div class="nav-contact">
+                <div class="nav-contact-box">
+                    <div class="nav-contact-links">
+                        <a href="https://www.linkedin.com/in/viktoria-sarkisian-2a6a63b/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Viki12MK"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div class="nav-contact-btn">
+                        <a href="#contact-sec" class="btn" id="btn-contact">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-container">
+                <div class="hero">
+                    <div class="hero-info">
+                        <div class="hero-title">
+                            <h1 id="hero-h1">Hi<span>!</span></h1>
+                        </div>
+                        <div class="hero-text">
+                            <div class="hero-txt">
+                                <h5>I am Viktoria Sarkisian - Viki</h5>
+                            </div>
+                            <div class="hero-txt">
+                                <h1>Web Developer & Designer</h1>
+                            </div>
+                        </div>
+                    </div>       
+                    <div class="hero-article">
+                        <p>Passionate about building clean, responsive web experiences and writing efficient Python code. 
+                            Entry-level developer committed to continuous learning and delivering quality solutions.</p>
+                        <p>I specialize in HTML, CSS, JavaScript, and Python. Currently focused on mastering frontend 
+                            frameworks.
+                        </p>
+                    </div>
+                    <div class="hero-btn">
+                        <a href="projects.html" class="btn" id="btn-projects">VIEW PROJECTS</a>
+                        <a href="#contact-sec" class="btn" id="btn-get-in-touch">GET IN TOUCH</a>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="about" id="about-sec">
+                    <div class="about-title">
+                        <h2>ABOUT ME</h2> 
+                    </div>
+                    <div class="about-txt">
+                        <p>I'm an entry-level developer with a strong foundation in 
+                            web development and Python programming. With no professional
+                            work experience, I've focused on building a solid portfolio 
+                            through personal projects and continuous learning.
+                        </p><br>
+                        <p>My journey in tech started with curiosity about how websites 
+                            work. I taught myself HTML, CSS, and JavaScript through 
+                            hands-on projects, then expanded into Python to understand 
+                            backend fundamentals and automation. I'm committed to writing
+                            clean, maintainable code and following best practices.
+                        </p><br>
+                        <p>I'm eager to contribute to a team, learn from experienced 
+                            developers, and grow my skills in both frontend and backend 
+                            development. I approach challenges with problem-solving 
+                            mindset and attention to detail.
+                        </p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="projects" id="project-sec">
+                    <div class="projects-title">
+                        <h2>PROJECTS</h2>
+                    </div>
+                    
+                    <div class="projects-list">
+                        <div class="project">
+                            <div class="project-num">
+                                <h1>01.</h1>
+                            </div>
+                            <div class="project-title">
+                                <h2>Personal Web Portfolio</h2>
+                                 <div class="project-btn">
+                                    <button class="button-project" id="btn-project-1">VIEW</button>
+                                 </div>
+                            </div>
+                            <div class="project-box">
+                                <div class="project-img">
+                                    <img src="/images-web/Project_1_Screenshot_1.webp" alt="Project 1">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-num">
+                                <h1>02.</h1>
+                            </div>
+                            <div class="project-title">
+                                <h2>Smart Book Analyzer & Deal Finder</h2>
+                                 <div class="project-btn">
+                                    <button class="button-project" id="btn-project-1">VIEW</button>
+                                 </div>
+                            </div>
+                            <div class="project-box">
+                                <div class="project-img">
+                                    <img src="/images-web/Project_2_Screenshot_1.webp" alt="Project 1">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-num">
+                                <h1>03.</h1>
+                            </div>
+                            <div class="project-title">
+                                <h2>Job Tracker App</h2>
+                                 <div class="project-btn">
+                                    <button class="button-project" id="btn-project-1">VIEW</button>
+                                 </div>
+                            </div>
+                            <div class="project-box">
+                                <div class="project-img">
+                                    <img src="/images-web/Project_3_Screenshot_1.webp alt="Project 1">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-num">
+                                <h1>04.</h1>
+                            </div>
+                            <div class="project-title">
+                                <h2>Weather App(API)</h2>
+                                 <div class="project-btn">
+                                    <button class="button-project" id="btn-project-1">VIEW</button>
+                                 </div>
+                            </div>
+                            <div class="project-box">
+                                <div class="project-img">
+                                    <img src="/images-web/Project_4_Screenshot_1.webp" alt="Project 1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="skills" id="skills-info">
+                    <div class="skills-title">
+                        <h2>SKILLS & TECHNOLOGIES</h2>
+                    </div>
+
+                    <div class="skills-boxes">
+                        <div class="skill-box">
+                            <div class="skill-box-title">
+                                <i class="fa-solid fa-palette"><span>FRONTEND</span></i>
+                            </div>
+                            <div class="skill-txt">
+                                <p><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span>
+                                <span>Bootstrap</span><span>Responsive Design</span><span>UI/UX Principles</span>
+                                <span>Graphic Design</span></p>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <div class="skill-box-title">
+                                <i class="fa-solid fa-database"><span>BACKEND<span></i>
+                            </div>
+                            <div class="skill-txt">
+                                <p><span>Python</span><span>Flask</span><span>Django</span>
+                                <span>REST APIs</span><span>Data Structures</span>
+                                <span>Version Control (Git)</span><span>MongoDB</span>
+                                <span>SQL</span><span>PHP</span><span>MySQL</span><span>Node.js</span></p>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-box">
+                            <div class="skill-box-title">
+                                <i class="fa-solid fa-terminal"><span>TOOLS & PLATFORMS</span></i>
+                            </div>
+                            <div class="skill-txt">
+                                <p><span>Visual Studio Code</span><span>Figma</span><span>GitHub</span><span>Postman</span>
+                                    <span>Docker</span><span>React</span>
+                                </p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="contact-section" id="contact-sec">
+                    <div class="contact-title">
+                        <h2 id="contact-title">LET'S CONNECT!</h2>
+                    </div>
+                    <div class="contact-context">
+                        <div class="contact-txt">
+                            <p id="contact-paragraph">I'm open to new opportunities and collaborations. 
+                                Feel free to reach out if you'd like to 
+                                discuss a project, share ideas, or just say hello!
+                            </p> 
+                        </div>
+
+                        <div class="contact-conatiner">
+                            <div class="contact-box">
+                                <div class="contact-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="contact-box-info">
+                                    <h3>Email</h3>
+                                    <a href="mailto:maiviktoria.sarkisian12@gmail.com">Cklick Here</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-box">
+                                <div class="contact-icon">
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                                <div class="contact-box-info">
+                                    <h3>GitHub</h3>
+                                    <a href="https://github.com/Viki12MK" target="_blank">Cklick Here</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-box">
+                                <div class="contact-icon">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                                <div class="contact-box-info">
+                                    <h3>LinkedIn</h3>
+                                    <a href="https://www.linkedin.com/in/viktoria-sarkisian-2a6a63b/" target="_blank">Cklick Here</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr>
+
+                <footer>
+                    <p>&copy; 2026 Viktoria Sarkisian | All rights reserved.</p>
+                </footer>
+            </div>
+
+              
+        </section>
+
+    </div>
+
+            
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
